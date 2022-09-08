@@ -1,6 +1,6 @@
 import def_playlist as fp   # importar modulo para poder utilizar funciones
 from os import system  # libreria y modulo para trabajar comandos de consola
-
+#playlist = [d for d in playlist if d['genero']=='rock' and d['duracion']=4.5] # clase usc list comprehension
 def run():  # principal funtion
     file = input('Enter name of the file to read: ')    # captura de dato
     super_list = fp.ReadFile(file)  # enviar parametro a funcion para leer archivo y recibir list
